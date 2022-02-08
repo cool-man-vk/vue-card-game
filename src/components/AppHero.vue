@@ -1,0 +1,53 @@
+<template>
+  <h1 class="sr-only">Peek-a-Vue</h1>
+  <img
+    srcset="/images/peek-a-vue-title@2x.png 2x, /images/peek-a-vue-title.png 1x"
+    src="/images/peek-a-vue-title.png"
+    alt="Peek-a-Vue"
+    class="title"
+  />
+  <section :class="$style.description">
+    <p>Welcome to Peek-a-Vue, a card matching game!</p>
+  </section>
+</template>
+
+<style module>
+.description {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.description p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.description p:last-child {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 0.9rem;
+}
+
+.powered-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.powered-link {
+  padding: 0 5px;
+}
+
+.powered-link:first-child,
+.powered-link:last-child {
+  padding-right: 0;
+}
+
+.powered-logo {
+  width: 18px;
+}
+
+.title {
+  padding-bottom: 30px;
+}
+</style>

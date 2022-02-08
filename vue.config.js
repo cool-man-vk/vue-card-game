@@ -7,8 +7,6 @@ module.exports = {
       template: 'public/index.html',
       // output as dist/index.html
       filename: 'index.html',
-      // template title <title><%= htmlWebpackPlugin.options.title %></title>
-      title: 'Peek-a-Vue by BenCodeZen'
     }
   }
 }

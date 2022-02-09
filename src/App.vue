@@ -112,6 +112,7 @@ export default {
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
 html,
 body {
   margin: 0;
@@ -120,7 +121,6 @@ body {
 }
 
 html {
-  background-image: url('/images/page-bg.png');
   background-color: #00070c;
 }
 
@@ -138,9 +138,7 @@ a:hover {
 }
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Delius', cursive;
   text-align: center;
   color: #2c3e50;
   color: #fff;

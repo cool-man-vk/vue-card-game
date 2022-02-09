@@ -1,5 +1,5 @@
 <template>
-  <h1 class="sr-only">Peek-a-Vue</h1>
+  <h1 class="sr-only">Recapt - card game</h1>
   <img
     srcset="/images/peek-a-vue-title@2x.png 2x, /images/peek-a-vue-title.png 1x"
     src="/images/peek-a-vue-title.png"
@@ -7,7 +7,7 @@
     class="title"
   />
   <section :class="$style.description">
-    <p>Welcome to Peek-a-Vue, a card matching game!</p>
+    <p>Welcome to Recapt, a card matching game!</p>
   </section>
 </template>
 

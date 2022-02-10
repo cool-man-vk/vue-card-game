@@ -119,6 +119,9 @@ body {
   padding: 0;
   height: 100%;
 }
+*{
+  font-family: 'Delius', cursive;
+}
 
 html {
   background-color: #00070c;
@@ -138,7 +141,7 @@ a:hover {
 }
 
 #app {
-  font-family: 'Delius', cursive;
+  
   text-align: center;
   color: #2c3e50;
   color: #fff;

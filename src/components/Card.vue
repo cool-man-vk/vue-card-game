@@ -80,13 +80,13 @@ export default {
 }
 
 .card-face.is-front {
-  background-image: url('/images/card-bg.png');
+  background:linear-gradient(orangered,orange);
   color: white;
   transform: rotateY(180deg);
 }
 
 .card-face.is-back {
-  background-image: url('/images/card-bg-empty.png');
+  background:linear-gradient(45deg,purple,grey);
   color: white;
 }
 

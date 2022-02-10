@@ -40,7 +40,7 @@ export default {
 
 <style module>
 .button {
-  background-color: #e78805;
+  background: linear-gradient(45deg,purple,violet);
   color: white;
   padding: 8px 16px 10px;
   display: flex;
@@ -48,17 +48,16 @@ export default {
   justify-content: center;
   margin: 0 auto 30px;
   font-weight: bold;
-  font-family: 'Titillium Web', sans-serif;
-  font-weight: bold;
+  cursor:pointer;
+  letter-spacing: 2px;
   font-size: 1rem;
   border: 0;
   border-radius: 10px;
   transition: 0.2s all ease-in;
-  border: 2px solid #e78805;
 }
 
 .button:hover {
-  border: 2px solid #e78805;
+  box-shadow:0 0 15px white;
   background-color: transparent;
 }
 

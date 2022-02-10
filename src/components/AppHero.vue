@@ -1,7 +1,7 @@
 <template>
   <h1 class="sr-only">Recapt - card game</h1>
   <section :class="$style.description">
-    <p>Welcome to Recapt, a card matching game!</p>
+    <p style="font-size:25px;letter-spacing:2px;">Welcome to Recapt, a card matching game!</p>
   </section>
 </template>
 
@@ -12,7 +12,7 @@
 
 .description p {
   margin: 0;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 .description p:last-child {
